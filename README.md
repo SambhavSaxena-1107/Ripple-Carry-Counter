@@ -1,3 +1,4 @@
+# Ripple-Carry-Counter
 The Verilog code defines a ripple carry counter with a testbench. The `test` module sets up simulation parameters, including clock and reset signals, and instantiates the `ripple_carry_counter` module.
 The counter comprises four Toggle FlipFlops (`tff` modules) interconnected in a ripple carry fashion. On each positive clock edge, the counter increments, resetting to zero upon a reset signal.
 The code facilitates simulation and waveform dumping to analyze the counter's behavior.\
